@@ -14,12 +14,12 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <a href="index.html"><img class="logo" src="assets/images/logo-arvr.png" alt="Shankar Ravi logo"></a>
-      <a class="brand" href="index.html">Shankar Ravi</a>
+      <a href="home.html"><img class="logo" src="assets/images/logo-arvr.png" alt="Shankar Ravi logo"></a>
+      <a class="brand" href="home.html">Shankar Ravi</a>
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="this.setAttribute('aria-expanded', document.querySelector('.site-nav').classList.toggle('open'))">&#9776;</button>
       <nav class="site-nav">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="home.html">Home</a></li>
           <li><a href="ar-vr-projects.html" aria-current="page">AR/VR Projects</a></li>
           <li><a href="education-projects.html">Education Projects</a></li>
           <li><a href="technology-and-society.html">Technology and Society</a></li>
@@ -41,14 +41,20 @@
 
     <section class="projects">
       <div class="container">
-      <article class="project ">
+      <article class="project">
           <div class="project-media">
+            <a class="video-embed" href="https://www.youtube.com/watch?v=nfCsT74ixdE" target="_blank" rel="noopener" data-youtube="nfCsT74ixdE" aria-label="Play CHI '21: Virtual Makerspaces talk">
+              <img src="assets/images/makerspaces-thumb.jpg" alt="CHI '21: Virtual Makerspaces: Merging AR/VR/MR to Enable Remote Maker Activities">
+              <span class="play-btn" aria-hidden="true"></span>
+            </a>
           </div>
           <div>
             <p class="project-num">01</p>
             <h2>Virtual Makerspaces</h2>
             <p>Mixed-reality system for remote collaborations, where collaborators can discuss, explore, create and learn about 3D physical objects. The system combines Hololens augmented reality, 3D Kinect cameras, PC and virtual reality interfaces, into a virtual space that hosts remote collaborators, and physical &amp; virtual objects. Worked on implementing mobile AR prototype and UX journeys.</p>
-            
+            <div class="btn-row">
+              <a class="btn" href="https://www.youtube.com/watch?v=nfCsT74ixdE" target="_blank" rel="noopener">Watch CHI '21 talk</a>
+            </div>
           </div>
         </article>
       <article class="project ">
@@ -85,7 +91,7 @@
 
   <footer class="site-footer" id="contact">
     <div class="container">
-      <a class="footer-brand" href="index.html">
+      <a class="footer-brand" href="home.html">
         <img src="assets/images/footer-logo.svg" alt="">
         <span><strong>Shankar Ravi</strong><small>Technology | Education | Society</small></span>
       </a>
@@ -106,5 +112,6 @@
     </div>
     <div class="copyright">&copy; 2023 by SR.</div>
   </footer>
+  <script src="assets/js/site.js"></script>
 </body>
 </html>

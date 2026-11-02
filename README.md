@@ -5,7 +5,8 @@ Static rebuild of https://rvishankarrvi.wixsite.com/my-site for GitHub Pages.
 ## Structure
 
 ```
-index.html                    Home
+index.html                    Landing page (animated wave lines)
+home.html                     Home
 ar-vr-projects.html           AR/VR Projects
 education-projects.html       Education Projects
 technology-and-society.html   Technology and Society
