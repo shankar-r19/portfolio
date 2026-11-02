@@ -500,3 +500,12 @@ a.video-embed:hover img { transform: scale(1.03); }
   .articles { padding: 64px 0 120px; }
   .footer-cols { padding-left: 0; }
 }
+
+/* ---------- Background braid lines ---------- */
+.bg-lines {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.16;
+  pointer-events: none;
+}
